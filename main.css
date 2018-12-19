@@ -1,0 +1,36 @@
+table,th,td {
+    border: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    height: 50px;
+    text-align: left;
+}
+th,td {
+    border-bottom: 1px solid gray;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+}
+tr:hover { 
+    background-color: antiquewhite;
+    color: red;
+}
+tr:nth-child(even){
+    background-color: brown;
+    color: white;
+}
+th {
+    background-color: black;
+    color: white
+}
+div {
+    overflow-x:auto;
+}
+h1 {
+    color: white;
+    background-color: rgb(158, 158, 71);
+}
